@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    tools:context="com.example.xiezhen.memoryleak.MainActivity">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="jumpToInnerThread"
+        android:text="Inner Thread!"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="jumpToAnonymousThread"
+        android:text="Anonymous Thread!"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="jumpToHandler"
+        android:text="Handler!"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="jumpToEventBus"
+        android:text="EventBus!"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="jumpToContext"
+        android:text="Context Activity!"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="jumpToReceiver"
+        android:text="Broadcast Receiver!"
+        android:textColor="#000000" />
+</LinearLayout>
